@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>thông tin chi tiết đơn hàng </title>
+    <% include ./../element/head_html %>
+
+    
+  <style>
+    ol.c {
+        list-style-type: upper-roman;
+    }
+  </style>
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+<% include ./../element/header %>
+
+<% include ./../element/menu %>
+<div class="content-wrapper m-5">
+    <section class="content-header">
+        <h1>
+          XEM CHI TIẾT ĐƠN HÀNG 
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="/"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li class="active">Dashboard</li>
+        </ol>
+      </section>
+
+    <!--content-->
+    <div class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+              <div class="box-header">
+                <h3 class="box-title">ĐƠN HÀNG #MÃ ĐƠN</h3>
+                <div class="box-body table-responsive no-padding">
+                    <table class="table table-hover">
+                        <tr>
+                            <th> thông tin </th>
+                            <th> #mã đơn </th>
+                          </tr>
+                          <tr>
+                            <td> mã khách hàng </td>
+                            <td><a href="/xem-thong-tin-nguoi-dung"> 123 </td>
+                          </tr>
+                          <tr>
+                              <td> địa chỉ </td>
+                              <td>123, trần hưng đạo, q5, p5</td>
+                          </tr>  
+                          <tr>
+                              <td> sđt </td>
+                              <td>032 092 84923</td>
+                          </tr>
+                          <tr>
+                              <td>giá đơn</td>
+                              <td>20.00</td>
+                          </tr> 
+                          <tr>
+                            <td> ngày đặt </td>
+                            <td> 12/10/2019</td>
+                          </tr> 
+                          <tr>
+                            <td> ngày giao tới </td>
+                            <td> 31/10/2019</td>
+                          </tr>                               
+                          <tr>
+                              <td>mã sản phẩm</td>
+                              <td>
+                                <ol class="c" >
+                                  <li><a href="/xem-thong-tin-san-pham">122</li>
+                                  <li><a href="/xem-thong-tin-san-pham">123</li>
+                                  <li><a href="/xem-thong-tin-san-pham">124</li>
+                              </ol>                                
+                              </td>
+                          </tr>                   
+                    </table>
+                    </div>
+                    <!-- /.box-body -->
+                  </div>
+                  <!-- /.box -->
+                </div>   
+
+
+          </div>  
+    </div>  
+    </div>
+</div>
+
+<% include ./../element/footer %>
+  <!-- /.control-sidebar -->
+  <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+
+</div>
+<!-- ./wrapper -->
+<% include ./../element/script %>
+</body>
+</html>
+
+

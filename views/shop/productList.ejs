@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>quản lý sản phẩm  </title>
+    <% include ./../element/head_html %>
+  <!-- DataTables -->
+  <link rel="stylesheet" href="../../bower_components/datatables.net-bs/css/dataTables.bootstrap.min.css">
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+<% include ./../element/header %>
+
+<% include ./../element/menu %>
+<div class="content-wrapper m-5">
+    <section class="content-header">
+        <h1>
+          DANH SÁCH SẢN PHẨM
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="/"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li class="active">Dashboard</li>
+        </ol>
+      </section>
+    <!--content-->
+    <div class="content">
+    <div class="row">
+            <div class="col-xs-12">
+                    <div class="box">
+                            <div class="box-header">
+                              <h3 class="box-title">DANH SÁCH CÁC SẢN PHẨM SHOP #MÃ SHOP </h3>
+                            </div>
+                            <!-- /.box-header -->
+                            <div class="box-body">
+                              <table id="example1" class="table table-bordered table-striped">
+                                <thead>
+                                <tr>
+                                  <th>mã sản phẩm </th>
+                                  <th> tên sản phẩm</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                  <td> điện thoại samsung ?</td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 1567 </td>
+                                  <td> điện thoại iphone </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 9987 </td>
+                                  <td> cái gì đó ?</td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 563 </td>
+                                  <td> hột gà </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                  <td> trà sữa chân châu </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                  <td> stủ lạnh </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                  <td> áo hở vai </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                  <td> quần jean </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                    <td> áo hở vai </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                    <td> stủ lạnh </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                    <td> áo hở vai </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                  <td> shopee hân hạnh tài trợ chương trình này</td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                    <td> stủ lạnh </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                    <td> trà sữa chân châu </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                    <td> trà sữa chân châu </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                  <td> hết ý tưởng rồi </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 343 </td>
+                                    <td> áo hở vai </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                  <td> voucher 50 % </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 563 </td>
+                                  <td> đèn bàn </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 73 </td>
+                                  <td> bàn ghế </td>
+                                </tr>
+                                <tr>
+                                  <td><a href="/xem-thong-tin-san-pham"> 123 </td>
+                                  <td> cặp vai </td>
+                                  </tr>
+      
+                                </tfoot>
+                              </table>
+                            </div>
+                            <!-- /.box-body -->
+                          </div>
+                        </div>
+                    </div>  
+                    </div>  
+                </div>
+                
+                
+                <% include ./../element/footer %>
+                
+                 
+                
+                  <!-- /.control-sidebar -->
+                  <!-- Add the sidebar's background. This div must be placed
+                       immediately after the control sidebar -->
+                  <div class="control-sidebar-bg"></div>
+                
+</div>
+                <!-- ./wrapper -->
+                <% include ./../element/script %>
+<!-- DataTables -->
+<script src="../../bower_components/datatables.net/js/jquery.dataTables.min.js"></script>
+<script src="../../bower_components/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+<script>
+        $(function () {
+          $('#example1').DataTable()
+          $('#example2').DataTable({
+            'paging'      : true,
+            'lengthChange': false,
+            'searching'   : false,
+            'ordering'    : true,
+            'info'        : true,
+            'autoWidth'   : false
+          })
+        })
+      </script>
+</body>
+</html>
+                

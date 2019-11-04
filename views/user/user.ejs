@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>thông tin chi tiết khách hàng </title>
+    <% include ./../element/head_html %>
+
+    
+  <style>
+    ol.c {
+        list-style-type: upper-roman;
+    }
+  </style>
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+<% include ./../element/header %>
+
+<% include ./../element/menu %>
+<div class="content-wrapper m-5">
+    <section class="content-header">
+        <h1>
+          XEM CHI TIẾT KHÁCH HÀNG
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="/"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li class="active">Dashboard</li>
+        </ol>
+      </section>
+    <!--content-->
+    <div class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+              <div class="box-header">
+                <h3 class="box-title">KHÁCH HÀNG #MÃ KHÁCH HÀNG </h3>
+                <div class="box-body table-responsive no-padding">
+                    <table class="table table-hover">
+                        <tr>
+                            <th> thông tin </th>
+                            <th> #mã khách hàng   </th>
+                          </tr> 
+                          <tr>
+                            <td> tên đăng nhập </td>
+                            <td> 123   </td>
+                          </tr> 
+                          <tr>
+                            <td> mật khẩu </td>
+                            <td> ?????????  </td>
+                          </tr>   
+                          <tr>
+                            <td> email </td>
+                            <td> tranvanA@gmail.com  </td>
+                          </tr>                     
+                          <tr>
+                            <td> tên khách hàng  </td>
+                            <td> trần văn A  </td>
+                          </tr> 
+                          <tr>
+                            <td> địa chỉ </td>
+                            <td> 123 trần hưng đạo, q5, p5 </td>
+                          </tr>
+                          <tr>
+                              <td> loại khách hàng   </td>
+                              <td> vip </td>
+                          </tr> 
+                          <tr>
+                              <td> sđt  </td>
+                              <td> 023 9993 123 </td>
+                          </tr> 
+                          <tr>
+                                <td> số tài khoản  </td>
+                                <td> 12357214398093 </td>
+                        </tr>                              
+                          <tr>
+                              <td> các đơn hàng </td>
+                              <td>
+                                <ol class="c" >
+                                  <li><a href="/xem-thong-tin-don-hang">122</li>
+                                  <li><a href="/xem-thong-tin-don-hang">123</li>
+                                  <li><a href="/xem-thong-tin-don-hang">124</li>
+                                  <li><a href="/xem-thong-tin-don-hang">122</li>
+                                  <li><a href="/xem-thong-tin-don-hang">123</li>
+                                  <li><a href="/xem-thong-tin-don-hang">124</li>
+                              </ol>                                
+                              </td>
+                          </tr>           
+                    </table>
+                  
+                         
+  
+                    </div>
+                    <!-- /.box-body -->
+                  </div>
+                  <!-- /.box -->
+                </div>   
+
+
+          </div>  
+    </div>  
+    <div class="row">
+        <div class="col-xs-4">
+                <button type="button" class="btn btn-block btn-danger btn-lg "> <a href="/sua-thong-tin-nguoi-dung">sửa đổi thông tin khách hàng </button>
+        </div>
+    </div>
+
+    </div>
+    
+</div>
+
+<% include ./../element/footer %>
+  <!-- /.control-sidebar -->
+  <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+
+</div>
+<!-- ./wrapper -->
+<% include ./../element/script %>
+</body>
+</html>
+
+

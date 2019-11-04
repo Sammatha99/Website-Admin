@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>cập nhập thông tin khách hàng </title>
+    <% include ./../element/head_html %>
+
+    
+  <style>
+    ol.c {
+        list-style-type: upper-roman;
+    }
+  </style>
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini">
+<div class="wrapper">
+
+<% include ./../element/header %>
+
+<% include ./../element/menu %>
+<div class="content-wrapper m-5">
+    <section class="content-header">
+        <h1>
+         CẬP NHẬP THÔNG TIN KHÁCH HÀNG 
+        </h1>
+        <ol class="breadcrumb">
+          <li><a href="/"><i class="fa fa-dashboard"></i> Home</a></li>
+          <li class="active">Dashboard</li>
+        </ol>
+      </section>
+
+      <div class="content">
+    <!--content -->
+        <div class="row">
+            <div class="col-md-12">
+                <div class="box box-primary">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Quick Example</h3>
+                    </div>
+                        <!-- /.box-header -->
+                        <!-- form start -->
+                    <form role="form">
+                        <div class="box-body">
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">mã khách hàng</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" mã khách hàng ">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">tên khách hàng</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" tên khách hàng ">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> tên đăng nhập </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" tên đăng nhập ">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1"> mật khẩu </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" mật khẩu ">
+                            </div> 
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">eamil </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" email  ">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">địa chỉ </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="địa chỉ ">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">loại khách hàng</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" loại khách hàng ">
+                            </div>
+                            <div class="form-group">
+                                <label for="exampleInputEmail1">số tài khoản </label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder=" số tài khoản ">
+                            </div>
+                            <div class="form-group">
+                                <label>ngày sinh</label>                   
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-calendar"></i>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder=" dd/mm/yyyy">
+                                </div>
+                                    <!-- /.input group -->
+                            </div>
+                            <div class="form-group">
+                                <label>US phone mask:</label>
+                    
+                                <div class="input-group">
+                                    <div class="input-group-addon">
+                                        <i class="fa fa-phone"></i>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="(___) ___-____">
+                                </div>
+                                    <!-- /.input group -->
+                            </div>                                             
+                        </div>
+                            <!-- /.box-body -->
+              
+                        <div class="box-footer">
+                            <button type="submit" class="btn"><a href="/xem-thong-tin-nguoi-dung"> cập nhập </button>
+                        </div>
+                    </form>
+                </div>
+        </div>
+        </div>
+    </div>
+    
+</div>
+
+<% include ./../element/footer %>
+  <!-- /.control-sidebar -->
+  <!-- Add the sidebar's background. This div must be placed
+       immediately after the control sidebar -->
+  <div class="control-sidebar-bg"></div>
+
+</div>
+<!-- ./wrapper -->
+<% include ./../element/script %>
+
+</script>
+</body>
+</html>
